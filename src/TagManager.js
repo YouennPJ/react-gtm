@@ -18,6 +18,7 @@ const TagManager = {
     const script = () => {
       const script = document.createElement('script')
       script.innerHTML = snippets.script
+      script.id = 'gtm-init'
       return script
     }
 
@@ -30,6 +31,7 @@ const TagManager = {
     }
   },
   initialize: function ({ gtmId, events = {}, dataLayer, dataLayerName = 'dataLayer', auth = '', preview = '' }) {
+    if (document.getElementById('gtm-init') != null) return;
     const gtm = this.gtm({
       id: gtmId,
       events: events,
