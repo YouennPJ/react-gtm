@@ -1,6 +1,6 @@
 {
-  "name": "react-gtm-module",
-  "version": "2.0.11",
+  "name": "react-gtm-module-v2",
+  "version": "1.0.0",
   "description": "React Google Tag Manager Module",
   "main": "dist/index.js",
   "scripts": {
@@ -12,16 +12,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alinemorelli/react-gtm"
+    "url": "https://github.com/youennpj/react-gtm"
   },
   "author": {
-    "name": "Aline Morelli",
-    "email": "aline.morelliw@gmail.com",
-    "url": "https://github.com/alinemorelli"
+    "name": "Youenn Pierre-Justin",
+    "email": "youenn.pn@gmail.com",
+    "url": "https://github.com/youennpj"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alinemorelli/react-gtm/issues"
+    "url": "https://github.com/youennpj/react-gtm/issues"
   },
   "homepage": "",
   "keywords": [
