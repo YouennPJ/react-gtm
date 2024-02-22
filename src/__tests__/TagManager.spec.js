@@ -1,3 +1,6 @@
+/**
+ * @jest-environment jsdom
+ */
 import TagManager from '../TagManager'
 
 describe('TagManager', () => {
