@@ -4,6 +4,7 @@ const TagManager = {
   dataScript: function (dataLayer) {
     const script = document.createElement('script')
     script.innerHTML = dataLayer
+    script.id = 'gtm-dataLayer'
     return script
   },
   gtm: function (args) {
