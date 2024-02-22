@@ -1,5 +1,5 @@
 const warn = (s) => {
-  console.warn('[react-gtm]', s);
-}
+  console.warn("[react-gtm]", s);
+};
 
-export default warn
+export default warn;
