@@ -34,16 +34,22 @@
   ],
   "devDependencies": {
     "@babel/eslint-parser": "^7.23.10",
+    "@babel/plugin-transform-modules-commonjs": "^7.23.3",
     "@babel/preset-env": "^7.23.9",
     "@babel/preset-react": "^7.23.3",
+    "babel-jest": "^29.7.0",
     "enzyme": "^3.11.0",
     "eslint": "^8.56.0",
     "jest": "^29.7.0",
     "jest-cli": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
     "sinon": "^17.0.1"
   },
   "jest": {
     "testRegex": "__tests__.*\\.spec.js$",
-    "collectCoverage": true
+    "collectCoverage": true,
+    "transformIgnorePatterns": [
+      "node_modules/(?!sinon*)/"
+    ]
   }
 }
