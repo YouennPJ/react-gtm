@@ -1,8 +1,8 @@
 [![npm version](https://img.shields.io/npm/v/react-gtm-module-v2.svg?style=flat-square)](https://www.npmjs.com/package/react-gtm-module-v2)
 [![npm downloads](https://img.shields.io/npm/dm/react-gtm-module-v2.svg?style=flat-square)](https://www.npmjs.com/package/react-gtm-module-v2)
 
-# react-gtm-module
-### React Google Tag Manager Module
+# react-gtm-module-v2
+### React Google Tag Manager Module v2
 
 This package is a fork of [Aline Morelli](https://github.com/alinemorelli)'s [react-gtm-module](https://github.com/alinemorelli/react-gtm) since it's no longer maintained
 
