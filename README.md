@@ -4,7 +4,7 @@
 # react-gtm-module-v2
 ### React Google Tag Manager Module v2
 
-This package is a fork of [Aline Morelli](https://github.com/alinemorelli)'s [react-gtm-module](https://github.com/alinemorelli/react-gtm) since it's no longer maintained
+This package is a fork of [Aline Morelli](https://github.com/alinemorelli)'s [react-gtm-module](https://github.com/alinemorelli/react-gtm) which is no longer maintained
 
 This is a Javascript module to [React](https://facebook.github.io/react/) based apps that implement Google Tag Manager. It is designed to use [GTM](https://developers.google.com/tag-manager/quickstart) snippet.
 You can easily use custom dataLayer, multiple dataLayers and additional events.
